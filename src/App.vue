@@ -3,6 +3,7 @@ import express from 'express'
 
 <template>
   <header>
+  <a class="logo" href='/'>Space for Geeks</a>
     <c-navigation />
   </header>
 

@@ -9,10 +9,10 @@ import Learning from './Learning.vue'
   <div class="hero">
   <div class= "wild-standart">
  <h1>Welcome to Space for Geeks</h1>
- <h2> Space made easy and fun</h2>
+ <h2>Their is currently {{ posts.number }} earthling in Space</h2>
  </div>
 </div>
-   <h3>Their is currently {{ posts.number }} earthling in Space</h3>
+   <h3></h3>
 
 
     <LastPost />
