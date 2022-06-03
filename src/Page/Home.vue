@@ -17,7 +17,6 @@ import Learning from './Learning.vue'
 
     <LastPost />
     <LastInfo />
-    <Learning />
 
     </template>
 
@@ -44,6 +43,6 @@ export default {
       this.errors.push(e)
     })
   }
-}
+};
 
 </script>

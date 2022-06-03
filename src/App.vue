@@ -1,5 +1,6 @@
-import 'dotenv/config' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
-import express from 'express'
+<script setup>
+import Footer from './components/Footer.vue'
+</script>
 
 <template>
   <header>
@@ -9,6 +10,10 @@ import express from 'express'
 
 <router-view :key="$route.fullPath" />
      <component :is="currentView" /> 
+
+
+    <Footer />
+
 </template>
 
 <script>

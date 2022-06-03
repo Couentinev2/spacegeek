@@ -37,7 +37,7 @@ butter.post.list({page: 1, page_size: 3}).then(function(response) {
     <h1>Our Last posts</h1>
 
 
-  <div class="home-last-blog-post" id="blog-home">
+  <div class="home-last-blog-post " id="blog-home">
       <!-- Create `v-for` and apply a `key` for Vue. Here we are using a combination of the slug and index. -->
       <div
         v-for="(post,index) in posts"
